@@ -1,0 +1,14 @@
+app = "pozdravlyazer"
+primary_region = "fra"
+
+[build]
+  buildpacks = ["heroku/python"]
+
+[env]
+  PORT = "8080"
+
+[deploy]
+  release_command = "python src/bot.py"
+
+[processes]
+  app = "python src/bot.py"

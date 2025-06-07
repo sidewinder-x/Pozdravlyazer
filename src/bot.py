@@ -4,7 +4,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 
-import config
+from . import config
 from handlers import common, greetings
 
 logging.basicConfig(

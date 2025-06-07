@@ -3,8 +3,7 @@ from aiogram.filters import CommandStart, Command
 from aiogram.types import Message, CallbackQuery
 from aiogram.utils.markdown import hbold, hitalic
 
-from src.keyboards import inline as kb
-
+from ..keyboards import inline as kb
 router = Router()
 
 # Обновленное приветственное сообщение с HTML-форматированием

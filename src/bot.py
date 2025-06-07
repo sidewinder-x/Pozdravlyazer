@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 
 from . import config
-from handlers import common, greetings
+from .handlers import common, greetings
 
 logging.basicConfig(
     level=logging.INFO,

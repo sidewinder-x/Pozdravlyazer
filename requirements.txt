@@ -1,0 +1,3 @@
+aiogram>=3.7
+python-dotenv
+httpx[http2] # Добавим для работы с API, если aiogram не подтянет
